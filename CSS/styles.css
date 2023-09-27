@@ -1,0 +1,80 @@
+body {
+  font-family: montserrat;
+}
+
+nav {
+  background: #b1bfc7;
+  height: 80px;
+  width: 100%;
+}
+
+label.logo {
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-flex;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+header {
+  text-align: center;
+  text-decoration: solid;
+  font-size: 40px;
+}
+
+/*---CSSGrid---*/
+.grid {
+  display: inline-grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.row1 {
+  border: solid #b1bfc7 5px;
+  margin: 5px;
+  padding: 15px;
+}
+
+.row2 {
+  border: solid beige 10px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.row3 {
+  border: solid saddlebrown 15px;
+  margin: 20px;
+  padding: 0px;
+}
+
+.column1 {
+  width: 5%;
+}
+
+.column2 {
+  width: 10%;
+}
+
+.column3 {
+  width: 15%;
+}

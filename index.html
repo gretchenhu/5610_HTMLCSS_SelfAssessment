@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Huiqin's HTML CSS Self Assessment Site</title>
+    <meta content="Huiqin Greta Hu" name="author" />
+    <meta
+      content="This is Huiqin Greta Hu's self assessment website for HTML and CSS"
+      name="description"
+    />
+    <meta
+      content="software development, self assessment website"
+      name="keywords"
+    />
+
+    <!--------Main CSS File------------->
+    <link rel="stylesheet" href="CSS/styles.css" />
+  </head>
+  <body>
+    <!---NavBar-->
+    <section id="nav-bar">
+      <nav>
+        <label class="logo">SelfAssessment</label>
+        <ul>
+          <li><a href="#Home">HOME</a></li>
+          <li><a href="#UsefulTags">UsefulTags</a></li>
+          <li><a href="#SEOTags">SEOTags</a></li>
+          <li><a href="#HTMLGrid">HTMLGrid</a></li>
+          <li><a href="#CSSGrid">CSSGrid</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <!--Main-->
+    <header>
+      Welcome to my Self Assessment page where I practice some basic skills of
+      HTML, CSS and Javascript
+    </header>
+    <h1>Website Purpose</h1>
+    <p>
+      This is a website that helps me self assess my understanding of HTML, CSS,
+      and JS
+    </p>
+    <section id="UsefulTags">
+      <h2>Here is a list of 10 most useful tags for me in HTML</h2>
+      <p>
+        Side note: In HTML, a tag is used for creating an element, which may
+        contain a data item or a chunk of text or an image, or perhaps nothing
+        lol.
+      </p>
+      <ol>
+        <li>ul: helps you create an unordered list</li>
+        <li>
+          ol: helps you created an ordered list, like the one you're seeing now
+        </li>
+        <li>
+          div: the generic container for flow content. It has no effect on the
+          content or layout until styled in some way using CSS
+        </li>
+        <li>
+          span: The span element is a generic inline container for phrasing
+          content, which doesn't mean anything but could be used to group
+          elements for styling. It's very similar to div but div is block-level
+          element whereas a span is an inline level element
+        </li>
+        <li>
+          button: an interactive element activated by a user. Once activated, it
+          then performs an action, such as submitting a form or opening a dialog
+        </li>
+        <li>
+          form: represents a document section containing interactive controls
+          for submitting information
+        </li>
+        <li>
+          a: the anchor element, with its href attribute creates a yperlink to
+          web pages, files, email addressess, locations in the same page, or
+          anything else a URL can address
+        </li>
+        <li>
+          meta: represents metadata that can't be represented by other HTML
+          meta-related elements like base, script, style, or title
+        </li>
+        <li>nav: represents a sectino that provides navigation links</li>
+        <li>
+          script: used to embed executable code or data, typically used to embed
+          or refer to JavaScript code
+        </li>
+      </ol>
+    </section>
+
+    <!---SEO Tags--->
+    <section id="SEOTags">
+      <h2>
+        Here is a list of 10 important header tags that I should add to my pages
+        for SEO optimization
+      </h2>
+      <ol>
+        <li>
+          Title: it appears as a clickable headline in the SERPs and also shows
+          up on social networks and in browser
+          <ul>
+            <li>
+              Give each page a unique title that describes the page's content
+            </li>
+            <li>Keep the titles up to 50-60 characters long</li>
+            <li>Put important keywords first but in a natural manner</li>
+            <li>
+              Make use of your brand name in the title, even if it ends up not
+              being showsn on the SERPs, it will still make a difference for the
+              search engine
+            </li>
+          </ul>
+        </li>
+        <li>
+          Meta description tags: it's commonly displayed in a SERP snippet along
+          with a title and page URL. Here are some tips on how to optimize your
+          meta description tags:
+          <ul>
+            <li>
+              Give each page a unique meta description that clearly reflects
+              what value the page carries
+            </li>
+            <li>
+              Google's snippets typically max out around 150-160 characters,
+              including spaces
+            </li>
+            <li>
+              Include your most significant keywords, so they could get
+              highlighted on the actual SERP, but be careful to avoid keyword
+              stuffing, don't make your description just a combination of
+              keywords you're targeting
+            </li>
+          </ul>
+        </li>
+        <li>
+          Heading tags (H1-H6): they are used to identify headings and
+          subheadings within your content from other types of text. Proper usage
+          of H1 tag has been emphasized in many industry studies
+          <ul>
+            <li>
+              Keep your headings relevant to the chunk of text they are
+              describing
+            </li>
+            <li>
+              Always have your headings reflect the sentiment of the text they
+              are placed over
+            </li>
+          </ul>
+        </li>
+        <li>
+          Image alt attribute: it's important in terms of on-page optimization
+          because alt text is displayed to visitors if the image cannot load,
+          and it provide context because search engines can't "see" images
+          <ul>
+            <li>Keep the alt text clear and descriptive is important</li>
+          </ul>
+        </li>
+        <li>
+          Nofollow attributes: external/outbound links are the links on your
+          site pointing to other sites. These links make your content look like
+          a hand-crafted comprehensive piece backed up by reliable sources, or
+          make your site look like a pile of link dump that is trying to
+          manipulate the algorithm, which Google does penalize. Therefore, it's
+          very important to pay attention to where you link and how. Here are
+          some links that you should not inlucde:
+          <ul>
+            <li>
+              Links to any resources that in any way can be considered as
+              "untrusted content"
+            </li>
+            <li>Any paid or sponsored links</li>
+            <li>
+              Links from comments or other kinds of user-generated content which
+              can be spammed beyond your control
+            </li>
+          </ul>
+        </li>
+        <li>
+          Robot Meta Tag: you should close unnecessary or unfinished pages with
+          thin content that have little value and no intent to appear in the
+          SERPs. You should also close pages that unreasonably waster crawl
+          budget
+        </li>
+        <li>
+          rel="canonical" link tagL it's a way of telling search engines which
+          version of a page you consider the main one and would like to be
+          indexed by search engines and found by people. For SEO Optimization,
+          you should put pages with similar content on the same subject
+        </li>
+        <li>
+          Schema markup: it's a specific technique of organizing the data on
+          each of your webpages in a way that's recognized by the search
+          engines. Having a structured schema markup is a great boost to your
+          UX, and carries huge SEO value.
+        </li>
+        <li>
+          Social media meta tags: Open Graph let you control how a page would
+          look when shared on social media. Some main Open Graph tags include
+          og: title, og: url, og:description, og:image. You should consider
+          adding basic and relevant metadata using Open Graph protocol, and test
+          the URLs to see how they will be displayed
+        </li>
+        <li>
+          Viewport meta tags: they allow you to configure how a page would be
+          scaled and displayed on any device. If you neglect this, your CTR and
+          bounce rates could suffer
+        </li>
+      </ol>
+    </section>
+
+    <!---HTMLGrid--->
+    <section id="HTMLGrid">
+      <h2>
+        Here we attempt to create a grid of 3*3 like layout without using table,
+        or any CSS. Only using divs and spans
+      </h2>
+      <div style="width: 100%; margin: 10px; text-align: center">
+        <span style="margin: 70px">1</span><span style="margin: 70px">2</span
+        ><span style="margin: 70px">3</span>
+      </div>
+      <div style="width: 100%; margin: 10px; text-align: center">
+        <span style="margin: 70px">4</span><span style="margin: 70px">5</span
+        ><span style="margin: 70px">6</span>
+      </div>
+      <div style="width: 100%; margin: 10px; text-align: center">
+        <span style="margin: 70px">7</span><span style="margin: 70px">8</span
+        ><span style="margin: 70px">9</span>
+      </div>
+    </section>
+
+    <!---CSSGrid--->
+    <section id="CSSGrid">
+      <h2>
+        Here we have a gallery that showcases the options for the CSS box model.
+        </h2>
+      <section class="grid">
+        <div class="row1" class="column1">One</div>
+        <div class="row1" class="column2">Two</div>
+        <div class="row1" class="column3">Three</div>
+        <div class="row2" class="column1">Four</div>
+        <div class="row2" class="column2">Five</div>
+        <div class="row2" class="column3">Six</div>
+        <div class="row3" class="column1">Seven</div>
+        <div class="row3" class="column2">Eight</div>
+        <div class="row3" class="column3">Nine</div>
+      </section>
+    </section>
+
+    <!---CSSFont--->
+    <section id=""CSSFont">
+        <h2> Here we attempt to create an itemized list with the same text and 6 different font sizes, using inline styling and a cobination of absolute and relative sizes.</h2>
+
+    </section>
+  </body>
+</html>
