@@ -43,38 +43,65 @@ header {
 
 /*---CSSGrid---*/
 .grid {
-  display: inline-grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
   gap: 10px;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
 }
 
 .row1 {
   border: solid #b1bfc7 5px;
-  margin: 5px;
   padding: 15px;
 }
 
 .row2 {
   border: solid beige 10px;
-  margin: 10px;
   padding: 5px;
 }
 
 .row3 {
   border: solid saddlebrown 15px;
-  margin: 20px;
   padding: 0px;
 }
 
 .column1 {
-  width: 5%;
+  margin: 5px;
 }
 
 .column2 {
-  width: 10%;
+  margin: 15px;
 }
 
 .column3 {
-  width: 15%;
+  margin: 10px;
+}
+
+.relative-box {
+  position: relative;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.absolute-box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #ccc;
+  padding: 20px;
+}
+
+.fixed-box {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #aaa;
+  padding: 20px;
+}
+
+.sticky-box {
+  position: sticky;
+  top: 20px;
+  background-color: #888;
+  padding: 20px;
 }

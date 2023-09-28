@@ -234,8 +234,8 @@
     <section id="CSSGrid">
       <h2>
         Here we have a gallery that showcases the options for the CSS box model.
-        </h2>
-      <section class="grid">
+      </h2>
+      <div class="grid">
         <div class="row1" class="column1">One</div>
         <div class="row1" class="column2">Two</div>
         <div class="row1" class="column3">Three</div>
@@ -245,13 +245,51 @@
         <div class="row3" class="column1">Seven</div>
         <div class="row3" class="column2">Eight</div>
         <div class="row3" class="column3">Nine</div>
-      </section>
+      </div>
     </section>
 
     <!---CSSFont--->
-    <section id=""CSSFont">
-        <h2> Here we attempt to create an itemized list with the same text and 6 different font sizes, using inline styling and a cobination of absolute and relative sizes.</h2>
-
+    <section id="CSSFont">
+      <h2>
+        Here we create an itemized list with the same text and 6 different font
+        sizes, use inline styling.
+      </h2>
+      <ol>
+        <ul>
+          <li style="font-size: 12px">This is a small font (12px).</li>
+          <li style="font-size: 14px">
+            This is a slightly larger font (14px).
+          </li>
+          <li style="font-size: 16px">This is a medium-sized font (16px).</li>
+          <li style="font-size: 1.2em">
+            This is a font using relative sizing (1.2em).
+          </li>
+          <li style="font-size: 150%">
+            This is a font using percentage sizing (150%).
+          </li>
+          <li style="font-size: 2vw">
+            This is a font using viewport width (2vw).
+          </li>
+        </ul>
+      </ol>
+      <div>
+        <div class="relative-box">
+          <h2>Relative Positioning</h2>
+          <p>This box is relatively positioned.</p>
+        </div>
+        <div class="absolute-box">
+          <h2>Absolute Positioning</h2>
+          <p>This box is absolutely positioned.</p>
+        </div>
+        <div class="fixed-box">
+          <h2>Fixed Positioning</h2>
+          <p>This box is fixed to the viewport.</p>
+        </div>
+        <div class="sticky-box">
+          <h2>Sticky Positioning</h2>
+          <p>This box becomes sticky as you scroll.</p>
+        </div>
+      </div>
     </section>
   </body>
 </html>
